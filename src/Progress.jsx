@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Progress = styled.div`
     position:  fixed;
+    top: 0;
     background:  linear-gradient(
         to right,
         rgba(250, 224, 66, .8) ${props => props.scroll},

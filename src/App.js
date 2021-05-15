@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div className="App">
       <Progress scroll={`${scrollPosition}%`} />
-      <header></header>
+      {/* <header></header> */}
       <main>
         <h1>Lorem Ipsum</h1>
         <p>
